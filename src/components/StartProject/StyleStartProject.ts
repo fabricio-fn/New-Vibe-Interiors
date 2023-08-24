@@ -8,17 +8,42 @@ export const StyleStartProeject = styled.section`
     gap: 2rem;
     padding: 1rem 5%;
     min-height: 100vh;
+    text-align: center;
+    position: relative;
 
-    img {
-        box-shadow: 20px 5px 50px ${({ theme }) => theme.colors.secondary};
-        width: 700px;
-        object-fit: cover;
-        pointer-events: none;
-    }
+    div {
+        img {
+            box-shadow: 20px 5px 50px ${({ theme }) => theme.colors.secondary};
+            width: 700px;
+            height: 470px;
+            object-fit: cover;
+            pointer-events: none;
+        }
+
+        button {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            display: none;
+            width: 190px;
+            gap: 1rem;
+        }
+
+        &:hover {
+            button {
+                display: flex;
+            }
+        }
+    }  
 
     @media (max-width: 930px) {
-        img {
-            width: 100%;
+        div {
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 `

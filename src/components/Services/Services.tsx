@@ -3,7 +3,7 @@ import { StyleServices } from "./StyleServices";
 
 export default function Services() {
     return (
-        <StyleServices>
+        <StyleServices id="services">
             <Card />
         </StyleServices>
     )

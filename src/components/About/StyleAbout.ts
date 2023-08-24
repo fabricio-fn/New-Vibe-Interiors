@@ -8,6 +8,7 @@ export const StyleAbout = styled.section`
     align-items: center;
     gap: 2rem;
     justify-content: space-between;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.aditional1};
 
     .content {
         text-align: end;

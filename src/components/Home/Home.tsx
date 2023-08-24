@@ -20,7 +20,7 @@ export default function Home() {
                 </StyleButton>
 
                 <StyleButton buttonSize="md" buttonStyle="outline">
-                    Start Project
+                    Learn More
                     <BsArrowRight />
                 </StyleButton>
             </div>

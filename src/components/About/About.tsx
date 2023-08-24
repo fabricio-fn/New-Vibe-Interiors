@@ -7,7 +7,7 @@ import CardList from "./CardList/CardList";
 
 export default function About() {
     return (
-        <StyleAbout>
+        <StyleAbout id="about">
             <div>
                 <img src="/img/img-about.jpg" alt="" />
             </div>

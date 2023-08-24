@@ -6,22 +6,22 @@ export interface iDataCardList {
 export const DataCardList: iDataCardList[] = [
     {
         title: "Home redesign",
-        img: "/img/img-home-1.jpg"
+        img: "/img/services-1.jpg"
     },
     {
         title: "Interior detailing",
-        img: "/img/img-home-1.jpg"
+        img: "/img/services-2.jpeg"
     },
     {
         title: "Furniture layout",
-        img: "/img/img-home-1.jpg"
+        img: "/img/services-3.jpeg"
     },
     {
         title: "Exterior finish selection",
-        img: "/img/img-home-1.jpg"
+        img: "/img/services-4.jpg"
     },
     {
         title: "Color and pint selection",
-        img: "/img/img-home-1.jpg"
+        img: "/img/services-5.jpg"
     }
 ]

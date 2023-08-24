@@ -9,7 +9,18 @@ export const Globals = createGlobalStyle`
         scroll-behavior: smooth;
     }
 
-    body { background: ${({ theme }) => theme.colors.primary}; }
+    body {
+        background: ${({ theme }) => theme.colors.primary};
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #root {
+        max-width: 1920px;
+        width: 100%;
+        min-height: 100vh;
+    }
 
     button {
         cursor: pointer;

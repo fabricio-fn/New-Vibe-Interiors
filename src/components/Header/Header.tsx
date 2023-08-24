@@ -35,12 +35,12 @@ export default function Header() {
     }, [])
 
     return (
-        <StyledHeader>
+        <StyledHeader id="header">
             <StyleNavbar className={ showMenu ? "active" : ""}>
-                <StyleButtonLink href="https://www.linkedin.com/in/fabriciofn/">About</StyleButtonLink>
-                <StyleButtonLink href="https://www.linkedin.com/in/fabriciofn/">Product</StyleButtonLink>
-                <StyleButtonLink href="https://www.linkedin.com/in/fabriciofn/">Project</StyleButtonLink>
-                <StyleButtonLink href="https://www.linkedin.com/in/fabriciofn/">Services</StyleButtonLink>
+                <StyleButtonLink href="#about">About</StyleButtonLink>
+                <StyleButtonLink href="#product">Product</StyleButtonLink>
+                <StyleButtonLink href="#project">Project</StyleButtonLink>
+                <StyleButtonLink href="#services">Services</StyleButtonLink>
             </StyleNavbar>
 
             <StyleButton buttonStyle="transparent" buttonSize="sm" className="btnMenu"
