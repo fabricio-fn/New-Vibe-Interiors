@@ -20,6 +20,8 @@ export const StyleAbout = styled.section`
     
     div {
         img {
+            pointer-events: none;
+            box-shadow: 20px 5px 50px ${({ theme }) => theme.colors.secondary};
             width: 400px;
             height: 450px;
             object-fit: cover;

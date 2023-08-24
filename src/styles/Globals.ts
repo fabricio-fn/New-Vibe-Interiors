@@ -33,6 +33,7 @@ export const Globals = createGlobalStyle`
     }
 
     ul, ol, li {
+        transition: .4s;
         margin: 0;
         padding: 0;
         list-style: none;
