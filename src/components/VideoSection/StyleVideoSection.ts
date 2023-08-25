@@ -25,7 +25,7 @@ export const StyleVideoSection = styled.section`
     }
 
     @media (max-width: 780px) {
-        img {
+        img, .content {
             width: 100%;
             height: auto;
         }
